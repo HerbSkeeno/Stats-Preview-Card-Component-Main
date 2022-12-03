@@ -1,0 +1,43 @@
+* {margin: 0; padding: 0;}
+
+h1{
+	color: white;
+	font-family: 'Inter', sans-serif;
+}
+
+h2{
+	color:hsla(0, 0%, 100%, 0.6);
+}
+
+p {
+	color: hsla(0, 0%, 100%, 0.75);
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+}
+
+.bg{
+	display: flex;
+	background-color: hsl(233, 47%, 7%);
+	width: auto;
+	height: 100vh;
+}
+
+.card_content{
+	position: relative;
+	background-color: hsl(244, 38%, 16%);
+	width: 65rem;
+	height: 27.9rem;
+	margin: auto;
+}
+
+.card_content img{
+	position: absolute;
+	right: 0;
+}
+
+.leftside{
+	position: absolute;
+	margin-right: 40rem;
+	margin-left: 4rem;
+	margin-top: 5rem;
+} 
