@@ -20,6 +20,7 @@
 	box-sizing: border-box;
 	overflow: scroll;
 
+
 }
 
 .card_content picture{
@@ -100,8 +101,7 @@ h1{
     font-size: 20px !important;
 }
 
-.statcell_1 h6{
-	display: block;
+.statcell_1 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
@@ -122,7 +122,7 @@ h1{
     font-size: 20px !important;
 }
 
-.statcell_2 h6{
+.statcell_2 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
@@ -143,7 +143,7 @@ h1{
     font-size: 20px !important;
 }
 
-.statcell_3 h6{
+.statcell_3 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
@@ -247,12 +247,13 @@ h1{
     font-size: 25px !important;
 }
 
-.statcell_1 h6{
+.statcell_1 h2{
 	display: block;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
 	font-size: 12px !important;
+
 }
 
 .statcell_2{
@@ -270,7 +271,7 @@ h1{
     font-size: 25px !important;
 }
 
-.statcell_2 h6{
+.statcell_2 h2{
 	text-align: left;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
@@ -293,7 +294,7 @@ h1{
     font-size: 25px !important;
 }
 
-.statcell_3 h6{
+.statcell_3 h2{
 	text-align: left;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
