@@ -4,6 +4,7 @@
 	background-color: hsl(233, 47%, 7%);
 	width: 100%;
 	height: 100vh;
+	border
 	box-sizing: border-box;
 }
 
@@ -18,9 +19,7 @@
 	height: 81%;
 	border-radius: 5px;
 	box-sizing: border-box;
-	overflow: scroll;
-
-
+	overflow: hidden;
 }
 
 .card_content picture{
@@ -29,30 +28,10 @@
 }
 
 .card_content > picture > img{
-
 	display: flex;
 	position: relative;
 	width: 100%; 
 	height: auto;
-}
-
-.purpletint{
-	position: absolute;
-	background-color: hsl(277, 64%, 61%);
-	z-index: 1;
-	opacity: 50%;
-	width: 100%;
-	height: 100%;
-	top: 0%;
-	filter: contrast(130%);
-}
-
-.info{
-	position: relative;
-	box-sizing: border-box;
-	margin-top: 74%;
-	width: 100%;
-	padding-top: 20px;
 }
 
 h1{
@@ -63,94 +42,100 @@ h1{
     margin-right: 9%;
     word-spacing: 2px;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 1.7rem;
     text-align: center;
+}
+
+.info{
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+	top: 33%;
+	padding-top: 20px;
 }
 
  .descript{ 
 	color: hsla(0, 0%, 100%, 0.75);
-	line-height: 20px;
+	line-height: 1.5rem;
 	font-family: 'Lexend Deca', sans-serif;
-	font-size: 12px;
+	font-size: .95rem;
 	font-weight: 200;
 	text-align: center;
 	align-content: center;
 	align-items:  center;
-	margin-top: 10px;
+	margin-top: 1.3rem;
 	margin-right: 11%;
 	margin-left: 11%;
 }
 
-.statcells{
+#statcells{
 	position: relative;
 	margin-top: 11%;
-	text-align: center;
-
 }
 
 .statcell_1{
 	width: 100%;
 	position: absolute;
-
+	text-align: center;
 }
 
 .statcell_1 p{
+	text-align: center;
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 20px !important;
+    font-size: 1rem;
 }
 
 .statcell_1 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
+	font-size: 1rem;
 	margin-top: 1%;
-}
+} */
 
 .statcell_2{
-	width: 100%;
 	position: absolute;
-    margin-top: 30%;
+	text-align: center;
+
 }
 
 .statcell_2 p{
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 20px !important;
+    font-size: 1rem;
 }
 
 .statcell_2 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
+	font-size: 1rem;
 	margin-top: 1%;
 }
 
 .statcell_3{
-	width: 100%;
 	position: absolute;
-    margin-top: 60%;
+	text-align: center;
 }
 
 .statcell_3 p{
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 20px !important;
+    font-size: 1rem;
 }
 
 .statcell_3 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
+	font-size: 1rem;
 	margin-top: 1%;
 }
-
+*/
 
 @media only screen and (min-width: 376px){
 
@@ -180,18 +165,7 @@ h1{
 	display: block;
 }
 
-.purpletint{
-	right: 0;
-	position: absolute;
-	background-color: hsl(277, 64%, 61%);
-	z-index: 1;
-	opacity: 50%;
-	width: 50%;
-	filter: contrast(130%);
-	top: 0%;
-}
-
-.info{
++.info{
 	position: relative;
 	margin-top: 0;
 	width: 50%;
@@ -236,6 +210,10 @@ h1{
 	text-align: left;
 	width: 10%;
 	position: absolute;
+	margin-right: 40rem;
+	margin-left: 4rem;
+	margin-top: 5rem;
+} 
 	margin-left: 12%;
 }
 
@@ -253,7 +231,6 @@ h1{
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
 	font-size: 12px !important;
-
 }
 
 .statcell_2{
@@ -302,6 +279,11 @@ h1{
 	font-size: 12px !important;
 }
 }
+
+
+
+
+
 
 
 
