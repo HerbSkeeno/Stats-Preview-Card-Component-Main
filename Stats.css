@@ -17,7 +17,7 @@
 	top: 9%;
 	bottom: 9%;
 	height: 81%;
-	border-radius: 5px;
+	border-radius: .5rem;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -70,14 +70,14 @@ h1{
 
 #statcells{
 	position: relative;
-	margin-top: 11%;
+	margin-top: 10%;
 }
 
-.statcell_1{
-	width: 100%;
+.statcells{
 	position: absolute;
-	text-align: center;
 }
+
+
 
 .statcell_1 p{
 	text-align: center;
@@ -88,12 +88,13 @@ h1{
 }
 
 .statcell_1 h2{
+	text-align: center;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
 	font-size: 1rem;
 	margin-top: 1%;
-} */
+}
 
 .statcell_2{
 	position: absolute;
@@ -135,7 +136,7 @@ h1{
 	font-size: 1rem;
 	margin-top: 1%;
 }
-*/
+
 
 @media only screen and (min-width: 376px){
 
