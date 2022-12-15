@@ -42,11 +42,10 @@
 	height: 100%;
 	top: 0;
 	z-index: 0;
-	opacity: 80%;
-	mix-blend-mode: multiply;
+	opacity: 40%;
 	box-sizing: border-box;
-
-	}
+	filter: saturate(160%);
+}
 
 h1{
 	color: white;
