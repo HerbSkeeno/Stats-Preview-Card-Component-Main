@@ -1,11 +1,12 @@
 * {margin: 0; padding: 0;}
 
 .bg{
+	display: flex;
 	background-color: hsl(233, 47%, 7%);
 	width: 100%;
 	height: 100vh;
-	border
-	box-sizing: border-box;
+	align-items: center;
+	align-content: center;
 }
 
 .card_content{
@@ -14,10 +15,10 @@
 	background-color: hsl(244, 38%, 16%);
 	margin-left: 6%;
 	margin-right: 6%;
-	top: 9%;
+	top: 0;
 	bottom: 9%;
 	height: 81%;
-	border-radius: .5rem;
+	border-radius: .5rem .5rem 0 0;
 	box-sizing: border-box;
 	overflow: hidden;
 }
@@ -31,13 +32,26 @@
 	display: flex;
 	position: relative;
 	width: 100%; 
-	height: auto;
+
 }
+
+.card_content > picture > div{
+	position: absolute;
+	background-color: hsl(277, 64%, 61%);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	opacity: 80%;
+	mix-blend-mode: multiply;
+	box-sizing: border-box;
+
+	}
 
 h1{
 	color: white;
 	font-family: 'Inter', sans-serif;
-	top: 6%;
+	margin-top: 3%;
     margin-left: 9%;
     margin-right: 9%;
     word-spacing: 2px;
@@ -49,8 +63,7 @@ h1{
 .info{
 	position: relative;
 	box-sizing: border-box;
-	width: 100%;
-	top: 33%;
+	margin-top: 74%;
 	padding-top: 20px;
 }
 
@@ -61,79 +74,74 @@ h1{
 	font-size: .95rem;
 	font-weight: 200;
 	text-align: center;
-	align-content: center;
-	align-items:  center;
 	margin-top: 1.3rem;
 	margin-right: 11%;
 	margin-left: 11%;
 }
 
-#statcells{
-	position: relative;
-	margin-top: 10%;
+.statcells{
+	margin-top: 11%;
+	text-align: center;
 }
 
-.statcells{
+.statcells {
+	width: 100%;
 	position: absolute;
 }
-
-
-
-.statcell_1 p{
-	text-align: center;
+.statcells  p{
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
-.statcell_1 h2{
-	text-align: center;
+.statcells  h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 1rem;
+	font-size: .8rem;
 	margin-top: 1%;
 }
 
 .statcell_2{
+	width: 100%;
 	position: absolute;
-	text-align: center;
-
+	margin-top: 25%;
 }
 
 .statcell_2 p{
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .statcell_2 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 1rem;
+	font-size: .8rem;
 	margin-top: 1%;
 }
 
 .statcell_3{
+	width: 100%;
 	position: absolute;
-	text-align: center;
+	margin-top: 50%;
 }
 
 .statcell_3 p{
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .statcell_3 h2{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 1rem;
+	font-size: .8rem;
 	margin-top: 1%;
 }
 
@@ -142,127 +150,143 @@ h1{
 
 
 .card_content{
-	top: 30%;
 	display: flex;
 	position: relative;
 	background-color: hsl(244, 38%, 16%);
 	border-radius: 5px;
 	box-sizing: border-box;
-	height: 33rem;
-	width: 80rem;
+	height: 20%;
+	width: 80%;
 	margin: auto;
+	border-radius: .5rem;
+	padding-bottom: 33%;
+	overflow: hidden;
 }
 
 .card_content > picture{
 	position: absolute;
-	margin-left: 50%;
 	width: 100%;
-	box-sizing: border-box;
+	left: 50%;
 }
 
 .card_content > picture > img {
 	position: relative;
 	width: 50%;
 	display: block;
+
 }
 
-+.info{
-	position: relative;
-	margin-top: 0;
+.info{
 	width: 50%;
-	overflow: scroll;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-bottom: 40.10%;
 }
 
 
-h1{
+.info h1{
+	margin: 0;
+	left: 4rem;
+	top: 5rem;
+	bottom: 10rem;
+	position: absolute;
 	color: white;
 	font-family: 'Inter', sans-serif;
-	margin-top: 10%;
-    margin-left: 12%;
-    margin-right: 10%;
     word-spacing: 2px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: left;
+    width: 80%;   
+
 }
 
- .descript{ 
+.descript{ 
+	margin: 0 0 0 0;
+ 	position: absolute;
+ 	top: 13rem;
+ 	left: 4rem;
 	color: hsla(0, 0%, 100%, 0.75);
 	line-height: 30px;
 	font-family: 'Lexend Deca', sans-serif;
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-weight: 200;
 	text-align: left;
-	align-content: center;
-	align-items:  center;
-	margin-top: 4%;
-	margin-left: 12%;
-	margin-right: 15%;
-	width: 70%;
+	width: 80%;
+
 }
 
 .statcells{
-	position: relative;
-	margin-top: 11%;
+	margin: 0;
+	position: absolute;
+	top: 21rem;
+	left: 4rem;
+	gap: 5px;
+	padding: 0 8px;
+	box-sizing: border-box;
+	line-height: 30px;
 
 }
 
-.statcell_1{
+.statcell_1 {
 	text-align: left;
 	width: 10%;
 	position: absolute;
-	margin-right: 40rem;
-	margin-left: 4rem;
-	margin-top: 5rem;
+	margin-top: 0;
+
+
 } 
-	margin-left: 12%;
-}
 
 .statcell_1 p{
 	text-align: left;
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 25px !important;
 }
+
+
 
 .statcell_1 h2{
 	display: block;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
+    font-size: 1rem;
 }
 
 .statcell_2{
 	text-align: left;
 	width: 10%;
 	position: absolute;
-	margin-left: 38%;
 	margin-top: 0;
-}
+	margin-left: 12.5rem;
+
+} 
+
 .statcell_2 p{
 	text-align: left;
 	color: white;
 	font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 25px !important;
 }
 
 .statcell_2 h2{
+	display: block;
 	text-align: left;
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
+    font-size: 1rem;
 }
 
 .statcell_3{
+	text-align: left;
 	width: 10%;
 	position: absolute;
-	margin-left: 64%;
 	margin-top: 0;
-}
+	margin-left: 23rem;
+} 
 
 .statcell_3 p{
 	text-align: left;
@@ -277,8 +301,8 @@ h1{
 	font-family: 'Lexend Deca', sans-serif;
 	color: hsla(0, 0%, 100%, 0.75);
 	font-weight: 200;
-	font-size: 12px !important;
-}
+    font-size: 1rem;
+} */
 }
 
 
